@@ -2,7 +2,9 @@
 
 ## Overview
 
-The Surgical Equipment Tracking System (SETS) is an innovative solution designed to enhance the management and tracking of surgical instruments in healthcare settings. Utilizing RFID technology, SETS provides a robust digital system to ensure all surgical instruments are accurately and efficiently tracked from preparation to sterilization. This system significantly improves operational efficiency and reduces the risk of surgical errors, ensuring better patient outcomes and streamlined healthcare operations.
+full-stack web application designed to digitalize and streamline hospital operations. The system provides secure role-based access for administrators, doctors, patients, pharmacy, and billing teams to manage the entire lifecycle of patient care — from registration and appointment booking to prescriptions, medical records, pharmacy dispensing, and billing.
+
+HMS improves operational efficiency, reduces administrative workload, ensures medical data accuracy, and enhances the overall patient experience through centralized data management and automated workflows.
 
 ## Technologies Used
 
