@@ -1,4 +1,4 @@
-# Surgical Equipment Tracking System (SETS)
+# Hospital Management System
 
 ## Overview
 
