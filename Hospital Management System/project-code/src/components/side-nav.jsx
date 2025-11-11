@@ -71,7 +71,7 @@ const SideNav = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span className="">SETS</span>
+              <span className="">UTA Hospital</span>
             </Link>
 
             <ModeToggle />
@@ -106,7 +106,7 @@ const SideNav = () => {
                 <ShoppingCart className="h-4 w-4" />
                 Order History
                 <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
-                  6
+                  0
                 </Badge>
               </Link>
               <Link
@@ -117,6 +117,39 @@ const SideNav = () => {
               >
                 <Archive className="h-4 w-4" />
                 Inventory
+              </Link>
+
+
+              <Link
+                href="/inventory"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary ${
+                  isInventoryActive ? "font-bold" : ""
+                }`}
+              >
+                <Archive className="h-4 w-4" />
+                Doctors
+              </Link>
+
+
+              <Link
+                href="/inventory"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary ${
+                  isInventoryActive ? "font-bold" : ""
+                }`}
+              >
+                <Archive className="h-4 w-4" />
+                Patients
+              </Link>
+
+
+              <Link
+                href="/inventory"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary ${
+                  isInventoryActive ? "font-bold" : ""
+                }`}
+              >
+                <Archive className="h-4 w-4" />
+                Appointments
               </Link>
             </nav>
           </div>
